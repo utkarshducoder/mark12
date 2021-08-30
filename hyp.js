@@ -9,7 +9,7 @@ function calculateHypotenuse(){
     var hypotenuse= hypotenuseLength(Number(baseValue.value), Number(perpedicularValue.value));
 
     var hypotenuseValue= Math.sqrt(hypotenuse);
-    outputMessage.innerText= "Hypotenuse is: " + hypotenuseValue;
+    outputMessage.innerText= "Hypotenuse is: " + hypotenuseValue.value;
 }
 
 function hypotenuseLength(b,p){
